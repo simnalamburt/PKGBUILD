@@ -1,3 +1,7 @@
+> **OUTDATED**: See https://archlinux.org/packages/community/any/yarn/ for the latest package.
+
+&nbsp;
+
 yarn 0.27.5-1
 --------
 

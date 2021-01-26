@@ -1,3 +1,7 @@
+> **OUTDATED**: See https://archlinux.org/packages/community/any/npm/ for the latest package.
+
+&nbsp;
+
 npm 5.1.0-1
 ========
 npm@5 package for Arch Linux.

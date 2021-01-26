@@ -1,3 +1,7 @@
+> **OUTDATED**: See https://aur.archlinux.org/packages/nginx-mainline-mod-brotli/ for the latest package.
+
+&nbsp;
+
 nginx-mainline-mod-brotli 1.13.2-1
 --------
 
