@@ -8,7 +8,7 @@ npm@5 package for Arch Linux.
 
 ```bash
 # Download the package
-curl -LO https://github.com/simnalamburt/arch.npm/releases/download/v5.1.0-1/npm-5.1.0-1-any.pkg.tar.xz
+curl -LO https://github.com/simnalamburt/PKGBUILD/releases/download/npm-5.1.0-1/npm-5.1.0-1-any.pkg.tar.xz
 
 # Install the package
 sudo pacman -U npm-5.1.0-1-any.pkg.tar.xz
