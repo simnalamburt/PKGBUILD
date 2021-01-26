@@ -2,3 +2,6 @@
 /*/src/
 /*/*.tar.gz
 /*/*.pkg.tar.xz
+/*/*.pkg.tar.xz.sig
+/*/*.pkg.tar.zstd
+/*/*.pkg.tar.zstd.sig
