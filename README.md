@@ -2,12 +2,13 @@ PKGBUILD
 ========
 Homemade Arch Linux packages for personal needs.
 
-You can use [`makepkg`](https://www.archlinux.org/pacman/makepkg.8.html) to
+If you don't want to install pre-built packages, you can use
+[`makepkg`](https://www.archlinux.org/pacman/makepkg.8.html) to build and
 install these packages manually.
 
 ```
 cd <package>
-makepkg -si
+makepkg -sri
 ```
 
 ### Archives
