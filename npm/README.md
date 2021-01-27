@@ -2,16 +2,12 @@
 
 &nbsp;
 
-npm 5.1.0-1
+npm
 ========
-npm@5 package for Arch Linux.
+The [npm](https://www.npmjs.com/) package for Arch Linux.
 
 ```bash
-# Download the package
-curl -LO https://github.com/simnalamburt/PKGBUILD/releases/download/npm-5.1.0-1/npm-5.1.0-1-any.pkg.tar.xz
-
-# Install the package
-sudo pacman -U npm-5.1.0-1-any.pkg.tar.xz
+pacman -U https://i.hyeon.me/PKGBUILD/npm-5.1.0-1-any.pkg.tar.xz
 ```
 
 #### References
