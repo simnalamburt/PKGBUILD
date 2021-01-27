@@ -1,7 +1,10 @@
 /*/pkg/
 /*/src/
 /*/*.tar.gz
-/*/*.pkg.tar.xz
-/*/*.pkg.tar.xz.sig
-/*/*.pkg.tar.zstd
-/*/*.pkg.tar.zstd.sig
+/*/*.tar.gz.sig
+/*/*.tar.bz2
+/*/*.tar.bz2.sig
+/*/*.tar.xz
+/*/*.tar.xz.sig
+/*/*.tar.zst
+/*/*.tar.zst.sig
