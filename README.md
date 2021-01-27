@@ -2,6 +2,8 @@ PKGBUILD
 ========
 Homemade Arch Linux packages for personal needs.
 
+- libsndfile
+
 If you don't want to install pre-built packages, you can use
 [`makepkg`](https://www.archlinux.org/pacman/makepkg.8.html) to build and
 install these packages manually.
