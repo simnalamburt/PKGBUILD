@@ -1,20 +1,21 @@
 # Maintainer: David Runge <dvzrv@archlinux.org>
 
 pkgname=libsndfile
-pkgver=1.0.28
-pkgrel=3
+pkgver=1.0.31
+pkgrel=1
 pkgdesc="A C library for reading and writing files containing sampled sound"
 arch=('x86_64')
-url="http://www.mega-nerd.com/libsndfile"
+url="https://libsndfile.github.io/libsndfile/"
 license=('LGPL2.1')
-depends=('glibc' 'libFLAC.so' 'libogg' 'libvorbis.so' 'libvorbisenc.so')
+depends=('glibc' 'libFLAC.so' 'libogg' 'libvorbis.so' 'libvorbisenc.so' 'opus')
 makedepends=('alsa-lib')
 optdepends=('alsa-lib: for sndfile-play')
 provides=('libsndfile.so')
-source=("http://www.mega-nerd.com/libsndfile/files/$pkgname-$pkgver.tar.gz"{,.asc})
-sha512sums=('890731a6b8173f714155ce05eaf6d991b31632c8ab207fbae860968861a107552df26fcf85602df2e7f65502c7256c1b41735e1122485a3a07ddb580aa83b57f'
-            'SKIP')
-validpgpkeys=('6A91A5CF22C24C99A35E013FCFDCF91FB242ACED') # Erik de Castro Lopo <erikd@mega-nerd.com>
+
+source=("https://github.com/$pkgname/$pkgname/releases/download/$pkgver/$pkgname-$pkgver.tar.bz2"{,.sig})
+b2sums=('33e3c3d111427e829d8233aec52c227188834936839da9a04cf1ea5d2595d6a3127e7ce86d7686ca0336cca2017e6e2466845c27c7fc399efae34a0902316e41'
+        'SKIP')
+validpgpkeys=('31D95CAB6D80D262244A1750A47620E801E47E95') # David Seifert <soap@gentoo.org>"
 
 prepare() {
   cd "$pkgname-$pkgver"
