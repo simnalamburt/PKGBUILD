@@ -8,3 +8,6 @@
 /*/*.tar.xz.sig
 /*/*.tar.zst
 /*/*.tar.zst.sig
+
+/nouveau-fw/NVIDIA-Linux-x86-*.run
+/nouveau-fw/extract_firmware.py
