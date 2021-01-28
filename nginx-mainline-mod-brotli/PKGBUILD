@@ -1,4 +1,5 @@
-# Maintainer: Massimiliano Torromeo <massimiliano.torromeo@gmail.com>
+# Maintainer: Hyeon Kim <simnalamburt@gmail.com>
+# Contributor: Massimiliano Torromeo <massimiliano.torromeo@gmail.com>
 
 _nginxver=1.13.3
 pkgname=nginx-mainline-mod-brotli

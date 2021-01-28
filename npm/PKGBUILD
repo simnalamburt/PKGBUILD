@@ -1,5 +1,5 @@
-# $Id$
-# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Hyeon Kim <simnalamburt@gmail.com>
+# Contributor: Felix Yan <felixonmars@archlinux.org>
 
 pkgname=npm
 pkgver=5.1.0

@@ -1,4 +1,5 @@
-# Maintainer: David Runge <dvzrv@archlinux.org>
+# Maintainer: Hyeon Kim <simnalamburt@gmail.com>
+# Contributor: David Runge <dvzrv@archlinux.org>
 
 pkgname=libsndfile
 pkgver=1.0.31
