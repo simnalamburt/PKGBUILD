@@ -12,5 +12,5 @@ sudo pacman-key -r 0F85F46EE242057F
 sudo pacman-key --lsign-key 0F85F46EE242057F
 
 # Install
-pacman -U https://i.hyeon.me/PKGBUILD/yarn-0.27.5-1-any.pkg.tar.xz
+sudo pacman -U https://i.hyeon.me/PKGBUILD/yarn-0.27.5-1-any.pkg.tar.xz
 ```
