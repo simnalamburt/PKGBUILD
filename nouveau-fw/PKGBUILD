@@ -1,24 +1,23 @@
-# Maintainer: Martin Peres <martin.peres[at]free[dot]fr>
+# Maintainer: Hyeon Kim <simnalamburt@gmail.com>
+# Contributor: Martin Peres <martin.peres[at]free[dot]fr>
 # Contributor: Timothée Ravier <tim[at]siosm[dot]fr>
 
 pkgname=nouveau-fw
-pkgver=325.15
+pkgver=340.108
 pkgrel=1
 pkgdesc="This package provides video & pgraph firmwares for all NVIDIA chipsets that need them"
-url='http://nouveau.freedesktop.org/wiki/'
+url='https://nouveau.freedesktop.org/VideoAcceleration.html#firmware'
 arch=('any')
 license=('custom')
-makedepends=('python2')
-source=("https://raw.github.com/imirkin/re-vp2/master/extract_firmware.py"
-        "http://us.download.nvidia.com/XFree86/Linux-x86/${pkgver}/NVIDIA-Linux-x86-${pkgver}.run")
-md5sums=('SKIP'
-         '528fc538584de6446384b9cec3099d6c')
-sha256sums=('SKIP'
-            '3d790e4bfed24641f7cc76879144ab5d52b12271012ba381b0d33aa1a2e08775')
+makedepends=('python')
+source=("https://raw.githubusercontent.com/envytools/firmware/a0b9f9be/extract_firmware.py"
+        "https://download.nvidia.com/XFree86/Linux-x86/${pkgver}/NVIDIA-Linux-x86-${pkgver}.run")
+b2sums=('1e59322523c5ec3162dca9792b3cc63c7e71f88dd32650141ffaab49e694022ba155b3691261df96f838e6c80f86c7e42b2a46103baa27a93bd8b9525e839f59'
+        '67e3c336a1f3e953e0fbccf96177bef7e0674c32243856660e9203e7c5fd4ada12a5fa784cebc2150d2133bdb16c19109f9fc5c04d4a138bd519def80c43164c')
 
 build() {
   sh NVIDIA-Linux-x86-${pkgver}.run --extract-only
-  python2 extract_firmware.py
+  python extract_firmware.py
 }
 
 package() {
