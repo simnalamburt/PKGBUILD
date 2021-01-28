@@ -4,12 +4,11 @@ Homemade Arch Linux packages for personal needs.
 
 - [libsndfile](libsndfile)
 
-If you don't want to install pre-built packages, you can use [`makepkg`] to
-build and install these packages manually.
+You must trust my PGP public key to use these packages.
 
 ```bash
-cd <package>
-makepkg -sri
+sudo pacman-key -r 0F85F46EE242057F
+sudo pacman-key --lsign-key 0F85F46EE242057F
 ```
 
 &nbsp;
