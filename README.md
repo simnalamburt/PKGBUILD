@@ -3,6 +3,7 @@ PKGBUILD
 Homemade Arch Linux packages for personal needs.
 
 - [libsndfile](libsndfile)
+- [sway-im](sway-im)
 
 You must trust my PGP public key to use these packages.
 
