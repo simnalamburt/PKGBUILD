@@ -2,7 +2,6 @@ PKGBUILD
 ========
 Homemade Arch Linux packages for personal needs.
 
-- [libsndfile](libsndfile)
 - [nouveau-fw](nouveau-fw)
 
 You must trust my PGP public key to use these packages.
@@ -17,6 +16,7 @@ sudo pacman-key --lsign-key 0F85F46EE242057F
 ### Archives
 These packages are outdated, but have been preserved for historical reasons.
 
+- [libsndfile](libsndfile)
 - [nginx-mainline-mod-brotli](nginx-mainline-mod-brotli)
 - [npm](npm)
 - [sway-im](sway-im)
