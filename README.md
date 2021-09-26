@@ -4,7 +4,6 @@ Homemade Arch Linux packages for personal needs.
 
 - [libsndfile](libsndfile)
 - [nouveau-fw](nouveau-fw)
-- [sway-im](sway-im)
 
 You must trust my PGP public key to use these packages.
 
@@ -20,6 +19,7 @@ These packages are outdated, but have been preserved for historical reasons.
 
 - [nginx-mainline-mod-brotli](nginx-mainline-mod-brotli)
 - [npm](npm)
+- [sway-im](sway-im)
 - [yarn](yarn)
 
 &nbsp;
