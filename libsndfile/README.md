@@ -1,3 +1,7 @@
+> **OUTDATED**: See https://archlinux.org/packages/extra/x86_64/libsndfile/ for the latest package.
+
+&nbsp;
+
 libsndfile
 ========
 The [libsndfile](https://libsndfile.github.io/libsndfile/) package for Arch Linux.
